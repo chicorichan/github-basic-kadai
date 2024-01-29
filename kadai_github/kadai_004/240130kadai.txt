@@ -1,0 +1,16 @@
+PS C:\test\git_challenge> git add hello_world.txt
+PS C:\test\git_challenge> git commit -m "hello_world.txtを追加"
+[main f08ac26] hello_world.txtを追加
+ 1 file changed, 2 deletions(-)
+
+PS C:\test\git_challenge> git log --oneline
+f08ac26 (HEAD -> main) hello_world.txtを追加
+
+PS C:\test\git_challenge> git commit hello_world.txt -m "日本語訳を追加"
+[main bce48ff] 日本語訳を追加
+ 1 file changed, 2 insertions(+)
+PS C:\test\git_challenge> git log --oneline
+bce48ff (HEAD -> main) 日本語訳を追加
+f08ac26 hello_world.txtを追加
+
+PS C:\test\git_challenge> 
